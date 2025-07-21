@@ -122,14 +122,17 @@
       transform: scale(1.02);
       box-shadow: 0 0 15px gold;
     }
-    .product img {
+   .product img {
   width: 100%;
+  max-width: 250px;
   height: auto;
-  max-height: 240px;
-  object-fit: contain; /* Changed from cover */
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
   border-radius: 10px;
   padding: 0.5rem;
   background: white;
+  margin: auto;
+  display: block;
 }
     .pagination {
       display: flex;
